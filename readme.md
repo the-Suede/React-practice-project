@@ -5,7 +5,7 @@
 
 * 上线地址：http://47.112.240.136:3000
 
-* git仓库地址：https://github.com/gzh52008/Midea.git
+* git仓库地址：https://github.com/the-Suede/React-practice-project.git
 
 ## 项目截图
 
