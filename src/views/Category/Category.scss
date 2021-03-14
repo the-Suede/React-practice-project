@@ -1,0 +1,20 @@
+.content{
+    .category_tabbar{
+        .am-tabs-tab-bar-wrap{
+            position: absolute;
+            .am-tab-bar-bar{
+                display: block;
+                // height: 100%;
+                width: 1.3rem;
+                .am-tab-bar-tab{
+                    width: 100%;
+                    height: 2.2rem;
+                    padding: 0.2rem 0;
+                }
+            }
+        }
+        .tabbar_item{
+            padding-left: 1.3rem;
+        }
+    }
+}

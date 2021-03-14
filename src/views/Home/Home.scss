@@ -1,0 +1,98 @@
+#all{
+    .head{
+        background-color: #0092d8;
+    }
+    .content{
+        margin-top: 0.2rem;
+        
+        .cbtn{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li{
+                display: flex;
+                align-items: center;
+                margin-top: 0.2rem;
+                flex-direction: column;
+                padding: 0 0.2rem;
+                img{
+                    width: 0.9rem;
+                    height: 0.9rem;
+                }
+                span{
+                    height: 0.6rem;
+                    line-height: 0.6rem;
+                    font-size: 0.2rem;
+                    width: 1.1rem;
+                    text-align: center;
+                }
+            }
+        }
+
+        .goodslist{
+            margin: 0 0.32rem;
+            padding-top: 0.24rem;
+            font-size: 16px;
+            background-color: #f6f6f6;
+            // background-color: green;
+            .product{
+                padding: 0 3px 6px;
+                width: 49%;
+                // background-color: blue;
+                background-color: #fff;
+                margin-top: 0.15rem;
+                border-radius: 0.18rem;
+                .pic{
+                    width: 2.72rem;
+                    // background-color: #fff;
+                    margin: 0 auto;
+                    img{
+                        width: 100%;
+                        height: 2.72rem;
+                        margin-top:0.3rem;
+                    }
+                }
+                .info{
+                    font-size: 13px;
+                    padding: 0 12px;
+                    width: 100%;
+                    margin: 0.25rem 0;
+                    .name{
+                        width: 100%;
+                        // height: 30px;
+                        color: #333;
+                        word-break: break-all;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        line-height: 1.5;
+                    }
+                    .opt_box{
+                        // background-color: red;
+                        display: flex;
+                        margin-top: 0.2rem;
+                        .price_box{
+                            width: 2.22rem;
+                            .main_price{
+                                font-size: 16px;
+                                color: #FF6600;
+                            }
+                            .del_price{
+                                font-size: 12px;
+                                color: #c7c7cc;
+                            }
+                        }
+                        .cart_btn{
+                            flex:1;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+   
+    
+}

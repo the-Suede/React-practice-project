@@ -1,0 +1,132 @@
+#search{
+    background-color: #fff;
+    .am-navbar-left{
+        padding: 8px;
+        background-color: #eee;
+    }
+    //搜索结果页面
+    .searchResult{
+        .sort{
+            // height: 1rem;
+            background-color: blue;
+        }
+        .hotGoodsList{
+            .hotGoodsItem{
+                display: flex;
+                border-top: 1px solid #f4f4f4;
+                padding: 0.1rem 0;
+                .hotGoods_pic{
+                    width: 2.4rem;
+                    height: 2.4rem;
+                    img{
+                        width: 2.4rem;
+                        height: 100%;
+                    }
+                }
+                .hotGoods_info{
+                    padding: 0 0.24rem;
+                    .hotGoods_info_name{
+                        font-size: 14px;
+                        color:#333;
+                        margin-top: 0.2rem;
+                    }
+                    .hotGoods_info_tag{
+                        .tag{
+                            display: inline-block;
+                            height: 0.3rem;
+                            background-color: #ff6600;
+                            font-size: 12px;
+                            color: #fff;
+                            margin-right: 0.2rem;
+                            padding: 0 0.1rem;
+                        }
+                    }
+                    .hotGoods_info_price{
+                        margin-top: 0.3rem;
+                        span{
+                            color: #ff6600;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //搜索初始页面
+    .recommend{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0.28rem 0 0.1rem;
+        p{
+            font-size: 12px;
+            color: #999;
+        }
+        .recommendSearch{
+            display: flex;
+            margin-top: 0.2rem;
+            flex-wrap: wrap;
+            .recommendSearchItem{
+                border: solid 1px #ccc;
+                height: 0.6rem;
+                line-height: 0.6rem;
+                font-size: 14px;
+                padding: 0 0.28rem;
+                color: #333;
+                margin-left: 0.1rem;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+    .hotGoods{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0.6rem 0 0.1rem;
+        p{
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 0.3rem;
+        }
+        .hotGoodsList{
+            .hotGoodsItem{
+                display: flex;
+                border-top: 1px solid #f4f4f4;
+                padding: 0.1rem 0;
+                .hotGoods_pic{
+                    width: 2.4rem;
+                    height: 2.4rem;
+                    img{
+                        width: 2.4rem;
+                        height: 100%;
+                    }
+                }
+                .hotGoods_info{
+                    padding: 0 0.24rem;
+                    .hotGoods_info_name{
+                        font-size: 14px;
+                        color:#333;
+                        margin-top: 0.2rem;
+                    }
+                    .hotGoods_info_tag{
+                        .tag{
+                            display: inline-block;
+                            height: 0.3rem;
+                            background-color: #ff6600;
+                            font-size: 12px;
+                            color: #fff;
+                            margin-right: 0.2rem;
+                            padding: 0 0.1rem;
+                        }
+                    }
+                    .hotGoods_info_price{
+                        margin-top: 0.3rem;
+                        span{
+                            color: #ff6600;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

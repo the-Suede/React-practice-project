@@ -1,0 +1,19 @@
+.am-tab-bar-bar{
+    height: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.24rem;
+    font-weight: 600;
+    border-top: solid 1px #dedee1;
+    text-align: center;
+    .am-tab-bar-tab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .am-tab-bar-tab-icon{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

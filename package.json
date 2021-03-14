@@ -1,0 +1,43 @@
+{
+  "name": "midea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress",
+    "build": "webpack --progress",
+    "start": "npm run dev"
+  },
+  "author": "lsm",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "axios": "^0.21.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "crypto-js": "^4.0.0",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "react-redux": "^7.2.2",
+    "redux-devtools-extension": "^2.13.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.3.4",
+    "express": "^4.17.1",
+    "rc-form": "^2.4.12",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
+  }
+}
